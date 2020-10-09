@@ -1,6 +1,6 @@
 ## Process this file with automake to produce Makefile.in
 
-bin_PROGRAMS = urlview
+bin_PROGRAMS = urldump
 
 urlview_SOURCES = urlview.c enter.c dokey.c enter.h quote.c quote.h
 urlview_LDADD = @LIBOBJS@

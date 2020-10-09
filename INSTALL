@@ -1,19 +1,6 @@
-Installation Notes for `urlview'
+Installation Notes for `urldump'
 ===============================
 
-To configure:
-
-	./configure
-
-To use the S-LANG library:
-
-	./configure --with-slang
-
-Build:
-
-	make
-
-Install:
-
-	make install
-
+autoreconf -vfi
+./configure
+make
